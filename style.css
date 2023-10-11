@@ -1,0 +1,15 @@
+body{
+    margin:0px;
+    background-color: lightsalmon;
+}
+.ClockContainer{
+    margin-inline: auto;
+    width:500px;
+    height:500px;
+    background-color: rgb(251, 222, 222);
+    margin-top: 50px;
+    border-radius: 190px;
+}
+.WriteupAdjust{
+    
+}

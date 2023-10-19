@@ -11,5 +11,30 @@ body{
     border-radius: 190px;
 }
 .WriteupAdjust{
-    
+    position: absolute;
+    width: 70%;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(243, 2, 2);
+    font-size: 50px;
+}
+.theDate{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    gap: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.theTime{
+    font-size: 100px;
+
+}
+.year{
+    font-size: 70px;
+    color: rgb(141, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#am-pm{
+    font-size: 30px;
 }

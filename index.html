@@ -10,14 +10,16 @@
     <div class="ClockContainer">
         <div class="WriteupAdjust">
             <div class="theTime">
-                <span>00</span>:<span>00</span>
+                <span id="time_hours">00</span>:<span id="time_minutes">00</span>:<span id="time_seconds">00</span><span id="am-pm">--</span>
             </div>
             <div class="theDate">
-                <span>SAT</span><span>5</span><span>JANUARY</span>
-                <span>2023</span>
+                <span id="dateOne">SAT</span><span id="dateTwo">5</span><span id="dateThree">JANUARY</span>
             </div>
+            <div class="year"><span id="2023">2023</span></div>
         </div>
     </div>
+    <button type="button" id="ClocktypeSwitch" onclick="SwitchClockType()">24 hours</button>
+        </div>
 
     <script src="index.js"></script>
 </body>
